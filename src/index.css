@@ -1,0 +1,16 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    --background: #282c33;
+    /*--primary: #C778DD*/
+    --primary: #62aeef;
+    --text: #fff;
+    --secondary: #abb2bf;
+
+    background: var(--background);
+    color: var(--text);
+}
